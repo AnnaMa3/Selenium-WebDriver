@@ -1,12 +1,7 @@
-
 import com.google.gson.Gson;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
 import parser.JsonParser;
 import parser.NoSuchFileException;
 import parser.Parser;
@@ -18,7 +13,6 @@ import shop.VirtualItem;
 import java.io.*;
 import java.util.stream.Stream;
 
-import static org.mockito.Mockito.*;
 
 
 public class UnitTests {
@@ -221,3 +215,4 @@ public class UnitTests {
     }
 
 }
+
